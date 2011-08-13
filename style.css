@@ -1,0 +1,206 @@
+/*
+Theme Name: Sidnicious
+Theme URI: http://sidnicious.com/
+Description: The custom WordPress theme for Sidney's weblog, based on <a href="http://diggingintowordpress.com/">H5 by Jeff Starr</a>
+Version: 1.0
+Author: Sidney San Martín
+Author URI: http://sidnicious.com/
+
+	H5 v1.0
+	http://www.opensource.org/licenses/gpl-3.0.html
+*/
+
+
+/* == BASICS == */
+
+header, footer, section, article, aside, nav {
+	display: block;
+	}
+body {
+	margin: 0 auto;
+	width: 700px;
+	font: 13px "Helvetica Neue", "Helvetica", "Geneva", "Arial", sans-serif;
+	line-height: 1.5em;
+	}
+h1 {
+	line-height: 1.2em;
+}
+nav+section {
+	overflow: hidden;
+	float: left;
+	clear: none;
+	}
+blockquote{
+	border-left: 4px solid #EEE;
+	margin: 1em 1em 1em 3em;
+	padding-left: 1em;
+}
+
+/* == LINKS == */
+
+a:link {
+	text-decoration: underline;
+	color: black;
+}
+a:visited{
+	color: #444;
+}	
+a:active {
+	color: #666;
+}
+
+/* == HEADER == */
+
+body>header {
+	padding: 2em 2em 1em 2em;
+	}
+	body>header h1 {
+		margin: 0;
+		}
+		body>header h1 a:link, body>header h1 a:visited {
+			text-decoration: none;
+			}
+	body>header h2 {
+		margin-bottom: 0;
+	}
+
+/* == POSTS == */
+
+article[id*=post-] {
+	padding: 10px 0;
+	}
+article>header{
+	border-color: #EEE;
+	border-style: solid;
+	border-width: 1px 0;
+	padding: 1em 0;
+	margin: 0.4em 0;
+}
+article>header p, 
+article>footer p {
+	margin: 0;
+	font-size: 0.85em;
+	color: #444;
+}
+article>header>p[rel="date"]{
+	float: right;
+}
+article>header>h1{
+	margin: 0;
+}
+article>header>h1>a:link{
+	text-decoration: none;
+}
+article+nav {
+	font-weight: bold;
+	}
+section>h1 {
+	padding-top: 10px;
+}
+section>div.wide{
+	margin: 1em 0;
+}
+section>div.wide>div{
+	position: absolute;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+/* == NAVIGATION == */
+
+nav {
+	text-align: center;
+	clear: both;
+	}
+body>nav {
+	background: #ddd;
+	padding: 10px 0;
+	}
+	body>nav ul {
+		text-align: left;
+		margin: 0;
+		}
+		body>nav li {
+			margin-right: 20px;
+			font-weight: bold;
+			display: inline;
+			}
+
+/* == COMMENTS == */
+
+article[id*=comment-] {
+	margin: 15px 0;
+	padding: 10px;
+	}
+	article[id*=comment-] h4 {
+		margin: 0;
+		}
+	.alt {
+		border: 1px solid #ddd;
+		background: #eee;
+		}
+form[method=post] label {
+	display: block;
+	}
+form[method=post] input {
+	margin: 2px 0 12px 0;
+	display: block;
+	}
+
+/* == SIDEBAR == */
+
+aside {
+	margin-top: 30px;
+	overflow: hidden;
+	width: 300px;
+	float: right;
+	clear: none;
+	}
+	aside li {
+		list-style: none;
+		}
+		aside li ul li {
+			list-style: disc outside;
+			}
+
+/* == FOOTER == */
+
+body>footer {
+	border-top: 1px solid black;
+	margin-top: 5em;
+	text-align: center;
+	overflow: hidden;
+	width: 100%;
+	clear: both;
+	}
+
+/* == SEARCH == */
+
+label[for=s] {
+	display: none;
+	}
+
+/* == ELEMENTS == */
+
+/* == REVISION HISTORY == */
+.revision-header {
+    background-color: #ffa;
+    border: 1px solid #3a8b8c;
+    padding: 10px; }
+
+div.revision-header { padding: 0 10px; }
+
+table.diff { width: 100%; }
+table.diff th { text-align: left; }
+table.diff .diff-deletedline { background-color:#fdd;
+                               width: 50%; }
+table.diff .diff-deletedline del { background-color:#f99;
+                                   text-decoration: none; }
+table.diff .diff-addedline { background-color:#dfd;
+                             width: 50%; }
+table.diff .diff-addedline ins { background-color:#9f9;
+                                 text-decoration: none; }
+table.diff .diff-context { display: none; }
+
+/* == ALL YOUR CODE ARE BELONG TO POETRY == */
