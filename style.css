@@ -21,6 +21,8 @@ html {
 }
 body {
 	background-color: white;
+	-webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 	font: 13px "Helvetica Neue", "Helvetica", "Geneva", "Arial", sans-serif;
 	line-height: 1.5em;
@@ -114,8 +116,12 @@ section>div.wide>div{
 	text-align: center;
 }
 section>div.wide>div>*{
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	-mox-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 	border: 5px solid rgba(255, 255, 255, 0.2);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
 	border-radius: 5px;
 }
 
