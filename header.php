@@ -19,13 +19,6 @@
 	</head>
 	<body <?php body_class(); ?>>
 
-		<nav>
-			<ul>
-				<li><a href="http://sidnicious.com/">Home</a></li>
-				<?php wp_list_pages('title_li='); ?>
-			</ul>
-		</nav>
 		<header>
 			<h1><a href="<?php bloginfo('url'); ?>/"><?php bloginfo('name'); ?></a></h1>
-			<h2><?php bloginfo('description'); ?></h2>
 		</header>
