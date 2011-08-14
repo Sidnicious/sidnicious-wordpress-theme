@@ -43,6 +43,25 @@ blockquote{
 	margin: 1em 1em 1em 3em;
 	padding-left: 1em;
 }
+div.quotation{
+	font-family: Georgia, "Times New Roman", serif;
+	margin: 3em 0;
+}
+div.quotation>blockquote{
+	font-style: italic;
+	font-size: 1.5em;
+	border: none;
+	margin: 0 3em 0.5em 3em;
+}
+div.quotation>cite{
+	display: block;
+	text-align: right;
+	font-style: normal;
+	margin: 0 2em 0 0;
+}
+div.quotation>cite::before{
+	content: '–';
+}
 
 /* == LINKS == */
 
