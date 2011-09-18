@@ -27,7 +27,7 @@ body {
 	font: 13px "Helvetica Neue", "Helvetica", "Geneva", "Arial", sans-serif;
 	line-height: 1.5em;
 	margin: 0 auto;
-	padding: 25px;
+	padding: 20px 25px 25px 25px;
 	width: 55em;
 	}
 h1 {
@@ -82,15 +82,27 @@ body>header {
 	}
 	body>header h1 {
 		margin: 0;
-		font-size: 2em;
+		font-size: 1.8em;
 		font-weight: normal;
+		color: #ddd;
+		background-image: url(images/sidnicious_header.png);
+		background-repeat: no-repeat;
+		background-position: left;
+		line-height: 33px;
+		padding-top: 10px;
+		padding-left: 130px;
 		}
-		body>header h1 a:link, body>header h1 a:visited {
+		body>header>h1>a:link, body>header>h1>a:visited {
 			text-decoration: none;
-			}
+			color: inherit;
+		}
 	body>header h2 {
 		margin-bottom: 0;
 	}
+#explanation {
+	margin: 0.5em 0;
+	font-size: 0.85em;
+}
 
 /* == POSTS == */
 

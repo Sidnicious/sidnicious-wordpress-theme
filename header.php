@@ -20,5 +20,8 @@
 	<body <?php body_class(); ?>>
 
 		<header>
-			<h1><a href="<?php bloginfo('url'); ?>/"><?php bloginfo('name'); ?></a></h1>
+			<h1><a href="<?php bloginfo('url'); ?>/">(<?php bloginfo('name'); ?>)</a></h1>
+			<p id="explanation">
+				I explore life and technology. I fix computers and write code at <a href="http://deeptechinc.com/">DeepTech, Inc.</a> in NYC. On the side, I guide development at <a href="http://distro.fm">DISTRO.fm</a>.
+			</p>
 		</header>
