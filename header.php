@@ -2,7 +2,7 @@
 <html <?php language_attributes(); ?>>
 	<head>
 		<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>">
-		<title>Sidnicious!</title>
+		<title>Sidnicious! <?php wp_title('&ndash;'); ?></title>
 		<meta name="description" content="<?php bloginfo('description'); ?>">
 
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen">
