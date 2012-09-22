@@ -17,7 +17,9 @@ header, footer, section, article, aside, nav {
 	display: block;
 	}
 html {
-	background-color: #BBB;
+	background-color: #555;
+	background-image: url(images/moire/10-normal.svg), url(images/moire/50-right.svg);
+		background-size: 15px, 75px;
 }
 body {
 	background-color: white;
