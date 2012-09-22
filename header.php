@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 	<head>
+<? if (is_home()): ?>
+		<meta name="description" content="I’m Sidney San Martín. I live in New York City, work at OkCupid, and enjoy poking buttons on computers (usually).">
+<? endif ?>
 		<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>">
 		<title>Sidnicious! <?php wp_title('&ndash;'); ?></title>
-		<meta name="description" content="<?php bloginfo('description'); ?>">
 
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen">
 		<link rel="alternate" type="text/xml" title="<?php bloginfo('name'); ?> RSS 0.92 Feed" href="<?php bloginfo('rss_url'); ?>">
