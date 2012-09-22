@@ -24,6 +24,6 @@
 		<header>
 			<h1><a href="<?php bloginfo('url'); ?>/">(<?php bloginfo('name'); ?>)</a></h1>
 			<p id="explanation">
-				I explore life and technology. I fix computers and write code at <a href="http://deeptechinc.com/">DeepTech, Inc.</a> in NYC. On the side, I guide development at <a href="http://distro.fm">DISTRO.fm</a>.
+				I’m a software engineer at <a href="http://okcupid.com/">OkCupid</a>. I sometimes help at <a href="http://distro.fm">DISTRO.fm</a>, and I did batch[2] of <a href="http://www.hackerschool.com/">Hacker School</a>. You can find me on <a href="https://github.com/Sidnicious">GitHub</a> and <a href="https://twitter.com/Sidnicious">Twitter</a>, among other places.
 			</p>
 		</header>
