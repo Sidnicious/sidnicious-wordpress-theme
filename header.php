@@ -25,7 +25,7 @@
 			<a href="<?php bloginfo('url'); ?>/"><h1>(<?php bloginfo('name'); ?>)</h1></a>
 <? if (is_home()): ?>
 			<p id="explanation">
-				I’m a software engineer at <a href="http://okcupid.com/">OkCupid</a>. I sometimes help at <a href="http://distro.fm">DISTRO.fm</a>, and I did batch[2] of <a href="http://www.hackerschool.com/">Hacker School</a>. You can find me on <a href="https://github.com/Sidnicious">GitHub</a> and <a href="https://twitter.com/Sidnicious">Twitter</a>, among other places.
+				I’m a software engineer at <a href="http://okcupid.com/">OkCupid</a>. I live in NYC and I did batch[2] of <a href="http://www.hackerschool.com/">Hacker School</a>. You can find me on <a href="https://github.com/Sidnicious">GitHub</a> and <a href="https://twitter.com/Sidnicious">Twitter</a>, among other places.
 			</p>
 <? endif ?>
 		</header>
