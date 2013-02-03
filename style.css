@@ -94,7 +94,7 @@ body>header {
 		padding-top: 10px;
 		padding-left: 130px;
 		}
-		body>header>h1>a:link, body>header>h1>a:visited {
+		body>header>a:link, body>header>a:visited {
 			text-decoration: none;
 			color: inherit;
 		}
