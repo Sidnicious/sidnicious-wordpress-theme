@@ -26,11 +26,11 @@ body {
 	-webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 	-moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
-	font: 13px "Helvetica Neue", "Helvetica", "Geneva", "Arial", sans-serif;
+	font: 14px "Helvetica Neue", "Helvetica", "Geneva", "Arial", sans-serif;
 	line-height: 1.5em;
 	margin: 0 auto;
 	padding: 20px 25px 25px 25px;
-	width: 55em;
+	max-width: 51em;
 	}
 h1 {
 	line-height: 1.2em;
@@ -116,7 +116,7 @@ article>header{
 	border-style: solid;
 	border-width: 1px 0;
 	padding: 1em 0;
-	margin: 0.4em 0;
+	margin: 1.8em 0;
 }
 article>header p, 
 article>footer p {
@@ -129,6 +129,7 @@ article>header>p[rel="date"]{
 }
 article>header>h1{
 	margin: 0;
+	font-size: 1.6em;
 }
 article>header>h1>a:link{
 	text-decoration: none;
@@ -138,6 +139,10 @@ article+nav {
 	}
 section>h1 {
 	padding-top: 10px;
+}
+section>h2 {
+	font-size: 1.3em;
+	margin: 1em 0;
 }
 section>div.wide{
 	margin: 2em 0;
